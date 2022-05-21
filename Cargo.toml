@@ -1,0 +1,19 @@
+[package]
+name = "deepsort"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+opencv = "0.63"
+anyhow= "*"
+image= "*"
+ndarray= "0.15.3"
+numpy="*"
+# onnxruntime="*"
+rand= "*"
+fasteval= "0.2.4"
+tch= "0.6"   # torch
+rulinalg="0.4.2"
+chrono="0.4.19"
